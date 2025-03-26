@@ -1,4 +1,4 @@
--- autosave.lua
+-- autosave.lua https://gist.github.com/CyberShadow/2f71a97fb85ed42146f6d9f522bc34ef
 --
 -- Periodically saves "watch later" data during playback, rather than only saving on quit.
 -- This lets you easily recover your position in the case of an ungraceful shutdown of mpv (crash, power failure, etc.).
