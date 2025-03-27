@@ -1,4 +1,4 @@
-function on_pause(_, paused)
+local function on_pause(_, paused)
 	if paused or paused == nil then
 		mp.commandv("script-message", "osc-visibility", "always", "no-osd")
 		mp.set_property_bool("ontop", false)
